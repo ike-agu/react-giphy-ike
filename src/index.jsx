@@ -6,7 +6,7 @@ import '../assets/stylesheets/application.scss';
 const Hello = ({ name }) => {
   return (
     <div>
-      Hello,
+      My name is iyke strike , Hello 
       {name}
     </div>
   );
