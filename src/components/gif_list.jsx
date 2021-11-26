@@ -19,4 +19,4 @@ class GifList extends Component {
     }
 }
 
-export default GifList;   
+export default GifList; 
