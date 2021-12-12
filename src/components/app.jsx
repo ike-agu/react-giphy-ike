@@ -15,7 +15,7 @@ class App extends Component {
           selectedGifId: "pVkmGyqYRt4qY" 
         }
 
-        this.search("nba");
+        this.search("hommer");
     }
 
     // TODO: Call Giphy API
@@ -39,7 +39,7 @@ class App extends Component {
         return ( 
             <div> 
                 <div className="left-scene">
-                    <SearchBar />
+                    <SearchBar searchFunction = {this.search}/>
                     <div className="selected-gif">
                         <Gif  id = {this.state.selectedGifId} />
                     </div>
