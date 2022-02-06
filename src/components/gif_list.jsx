@@ -8,14 +8,11 @@ class GifList extends Component {
             return <Gif id = {gif.id} key =  {gif.id} />
         })
     }
-
-
+    
     render(){
         return <div className="gif-list">
             {this.renderList()}
-        </div>
-       
-        
+        </div>      
     }
 }
 
